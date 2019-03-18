@@ -21,11 +21,12 @@
         <li>
           <details>
             <summary>Have more than a single channel to diverse nodes</summary>
-            Ideally 3+ outbound channels to a quite different type of nodes (size, geo, networks, ownership etc.).<br/>
-            - If you only have a single (outbound) channel - essentially a single other node - you might have to deal with unfortunate situations:
+            Ideally 3+ outbound channels to different types of nodes (ownership, popularity, location, network).<br/>
+            - If you only have a single (outbound) channel, your access to the LN is dependant on the availability of that single node. 
+            - You might have to deal with unfortunate situations:
             <ul>
-              <li>[accidental] the routing node might become unavailabe (disaster, instability, illiquidity etc.)</li>
-              <li>[malicious ] a greedy routing node spiking their fees</li>
+              <li>[accidental] the node might become unavailable (disaster, instability, illiquidity etc.)</li>
+              <li>[malicious ] a greedy routing node could spiking their fees</li>
             </ul>
           </details>
         </li>
@@ -38,7 +39,9 @@
         <li>
           <details>
             <summary>Services = Custodial = Not your money</summary>
-            Just like on-chain's "not your private keys, not your coins", off-chain has various custodial services which can have easier use. But you have to trust completely that those 3rd-parties will not get hacked or exit-scam you (also beware of their hidden-fees). (Let us not have an LNGox)
+            Just like on-chain's "not your private keys, not your coins", off-chain has various custodial services which can be appealing. But you have to trust completely that those 3rd-parties will not get hacked or exit-scam you (also beware of their hidden-fees). (Let us not have an LNGox)<br>
+            Some services are branded with LN, but using them doesn't mean you are actually using LN.<br>
+            LN enable near-instant peer-to-peer TXs for sub-satoshi fees, take advantage of that, regain the sovereignty of your sats.
           </details>
         </li>
       </ol>
